@@ -1,0 +1,554 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.rubik-font {
+  font-family: "Rubik", sans-serif;
+}
+
+.fjalla-font {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.orange-text {
+  color: #ff6900;
+}
+
+.dark-text {
+  color: #1c2730;
+}
+.nav-items {
+  font-size: 12px;
+  margin-left: 130px;
+}
+
+#navbarToggler li {
+  width: 160px;
+}
+
+#phone-button {
+  background-color: #ff6900;
+  color: white;
+  font-size: 12px;
+  padding: 6px 25px;
+  border-radius: 20px;
+}
+
+#first-section {
+  background-image: url("assets/group-4@2x.png");
+  object-fit: cover;
+}
+
+#first-section h2 {
+  color: #ff6900;
+  letter-spacing: 3px;
+  padding-top: 2em;
+  font-size: 40px;
+}
+#first-section h1 {
+  font-size: 50px;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 30.25%;
+}
+
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.scroll-btn {
+  padding: 25px;
+}
+
+.scroll-btn img:hover {
+  opacity: 0.7;
+  height: 40px;
+}
+
+#second-section h1 {
+  padding-top: 1.2em;
+  font-size: 55px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d3d8dc;
+  border-width: 2px;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.customer-container {
+  margin: 3rem 10rem;
+}
+
+.customer-pic {
+  float: left;
+  margin-right: 10px;
+}
+
+.customer-text {
+  margin-left: 70px;
+}
+
+.bill-image-size {
+  width: 427px;
+  height: 535px;
+}
+
+.bill-title {
+  margin-bottom: 30px;
+  width: 800px;
+  height: 129px;
+  font-size: 60px;
+  text-align: left;
+}
+
+.bill-text {
+  width: 762px;
+  height: 244px;
+  text-align: left;
+  letter-spacing: -0.21px;
+  line-height: 1.56;
+  color: #303d46;
+  margin-top: 80px;
+  font-size: 18px;
+}
+
+#third-section h2 {
+  color: #ff6900;
+  letter-spacing: 3px;
+  padding-top: 5em;
+  font-size: 25px;
+}
+
+#third-section h1 {
+  font-size: 50px;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  color: #1c2730;
+  letter-spacing: 1.5px;
+}
+
+#third-section iframe {
+  margin-top: 30px;
+}
+
+#third-section {
+  background-image: url("assets/group-5@2x.png");
+  object-fit: cover;
+}
+
+#fourth-section {
+  background-image: url("assets/group-4@2x.png");
+  object-fit: cover;
+
+  height: 680px;
+}
+
+#fourth-section h2 {
+  color: #ff6900;
+  letter-spacing: 3px;
+  padding-top: 5em;
+  font-size: 25px;
+}
+
+#fourth-section h1 {
+  font-size: 50px;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.process-container {
+  margin: 3rem 10rem;
+  position: relative;
+}
+.process-p {
+  color: rgb(226, 221, 221);
+  font-size: 19px;
+  width: 760px;
+  height: 120px;
+  margin-left: 15px;
+}
+
+.steps img {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.process-text {
+  margin-left: 70px;
+  color: rgb(214, 206, 206);
+  width: 150px;
+  height: 60px;
+}
+
+#step1 {
+  position: absolute;
+  top: 480px;
+  left: 30px;
+}
+
+#step2 {
+  position: absolute;
+  top: 480px;
+  left: 370px;
+}
+
+#step3 {
+  position: absolute;
+  top: 480px;
+  left: 730px;
+}
+
+#step4 {
+  position: absolute;
+  top: 480px;
+  left: 1070px;
+}
+
+#fifth-section {
+  padding-top: 5em;
+}
+
+#fifth-section hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d3d8dc;
+  border-width: 2px;
+  width: 60%;
+  margin-top: 40px;
+  margin-bottom: 85px;
+}
+.gazette {
+  width: 500px;
+  height: 240px;
+}
+
+#sixth-section {
+  background-image: url("assets/group-5@2x.png");
+  object-fit: cover;
+}
+
+#sixth-section h2 {
+  color: #ff6900;
+  letter-spacing: 3px;
+  padding-top: 3em;
+  font-size: 25px;
+}
+
+#sixth-section h1 {
+  font-size: 50px;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  color: #1c2730;
+  letter-spacing: 1.5px;
+}
+
+#sixth-section iframe {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+#seventh-section {
+  background-color: #ff6900;
+  padding-bottom: 4em;
+}
+
+#seventh-section h2 {
+  color: #1c2730;
+  letter-spacing: 3px;
+  padding-top: 3em;
+  font-size: 20px;
+}
+
+#seventh-section h1 {
+  font-size: 40px;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.back-square-r {
+  background-color: rgb(214, 196, 178);
+  width: 260px;
+  height: 260px;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.back-square-l {
+  background-color: rgb(214, 196, 178);
+  width: 260px;
+  height: 260px;
+  margin-top: 80px;
+  margin-left: 90px;
+  position: absolute;
+}
+
+.inner-square-r {
+  background-color: white;
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  top: 6%;
+  left: 6%;
+}
+
+.inner-square-l {
+  background-color: white;
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  top: 6%;
+  left: 6%;
+}
+
+.logo {
+  padding: 2em;
+}
+
+.link-modal {
+  cursor: pointer;
+}
+
+#seventh-section h3:hover {
+  color: #ff6900;
+}
+
+#eigth-section {
+  padding-top: 5em;
+}
+
+.modal-xl {
+  max-width: 68% !important;
+}
+
+.last-row {
+  margin-left: 260px;
+}
+
+.team-p {
+  margin-top: 30px;
+  width: 700px;
+  font-size: 16px;
+  color: #303d46;
+}
+
+.team-row-padding {
+  padding: 1em;
+}
+
+.team-col-pad {
+  padding: 1em;
+}
+
+#eigth-section h3 {
+  padding-top: 1em;
+  font-size: 17px;
+  color: #303d46;
+  font-family: "Fjalla One", sans-serif;
+}
+
+#eigth-section p {
+  font-size: 14px;
+  color: #303d46;
+  font-family: "Rubik", sans-serif;
+}
+
+#ninth-section {
+  background-color: #eef0f1;
+  padding-top: 4em;
+}
+
+#ninth-section p {
+  margin-bottom: 80px;
+}
+
+#ninth-section h3 {
+  font-weight: 800;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+#ninth-section .row p {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 25px;
+  width: 260px;
+}
+
+#tenth-section h1 {
+  padding-top: 0.5em;
+  font-size: 270px;
+  letter-spacing: -0.3cm;
+  margin-bottom: -40px;
+}
+
+#tenth-section h2 {
+  font-size: 45px;
+  margin-left: 35px;
+}
+
+#tenth-section p {
+  color: #818e97;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#tenth-section {
+  padding-bottom: 8em;
+}
+
+#eleventh-section {
+  background-image: url("assets/group-6@2x.png");
+  background-size: 100%;
+  padding-bottom: 6em;
+}
+
+#eleventh-section h1 {
+  font-size: 50px;
+  color: white;
+  padding-top: 3em;
+}
+
+#eleventh-section h3 {
+  font-size: 22px;
+  color: white;
+  padding-top: 1em;
+}
+
+#eleventh-section hr {
+  border: solid 0.2px #ffffff;
+  width: 140px;
+  height: 0.4px;
+}
+
+#eleventh-section form {
+  padding-top: 3em;
+  padding-left: 4.5em;
+}
+
+#eleventh-section label {
+  color: white;
+  font-size: 16px;
+}
+
+#eleventh-section input {
+  width: 300px;
+  border-radius: 20px;
+}
+
+#eleventh-section select {
+  -webkit-appearance: none;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+#eleventh-section button {
+  margin-top: 40px;
+  margin-right: 45px;
+  background-color: #ff6900;
+  color: white;
+  font-size: 18px;
+  padding: 6px 25px;
+  border-radius: 22px;
+  width: 350px;
+  height: 50px;
+  border-color: #ff6900;
+}
+
+#eleventh-section .savings {
+  margin-left: 380px;
+}
+
+#footer-section {
+  background-image: linear-gradient(to bottom, #29363e, #1f2930);
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+.block-text {
+  margin-top: 40px;
+  margin-left: 29px;
+  color: white;
+  width: 124px;
+  font-size: 13px;
+  text-align: left;
+}
+
+#footer-section button {
+  background-color: #1f2930;
+  color: white;
+  font-size: 12px;
+  padding: 6px 25px;
+  border-radius: 20px;
+  width: 175px;
+}
+
+.logo-col1 {
+  margin-left: -100px;
+}
+
+.col2 {
+  margin-left: 50px;
+}
+
+.menu-text {
+  font-size: 12px;
+  padding-top: 37px;
+  color: white;
+  margin-left: 20px;
+}
+
+#footer-section span {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#footer-section small {
+  font-size: 15px;
+  color: #768a99;
+}
+
+.copyright {
+  padding-top: 1.7em;
+}
+
+.last-col {
+  margin-left: 50px;
+}
+
+.cont-footer {
+  margin-left: 450px;
+}
+
+.badges {
+  padding-top: 2em;
+}
